@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                     //send Sms.............
                     //allow permission first
                     String smsNumber = ed_otp.getText().toString();
-                    String smsText = "<#> Your SGF code is: 659654\n+uZ3/NqJ0eV";
+                    String smsText = "<#> Your App_Name code is: 659654\n+uZ3/NqJ0eV";
                     SmsManager smsManager= SmsManager.getDefault();
                     smsManager.sendTextMessage(smsNumber,null,smsText,null,null);
 
